@@ -1,0 +1,135 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle,#fff,#ccc);
+}
+#container{
+    background-color: #9DD2EA;
+    height: 550px;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #009de4;
+    -moz-box-shadow: 5px 5px #009de4;
+    -webkit-box-shadow: 5px 5px #009de4;
+    
+    position: relative;
+}
+#score{
+    background-color:#F1ff92 ;
+    box-shadow: 0px 5px #9da853;
+    -moz-box-shadow: 0px 5px #9da853;
+    padding: 10px;
+    color: #888E5F;
+    position: absolute;
+    left: 730px;
+}
+#correct{
+    background-color: #42e252;
+    color: white;
+    padding: 9px;
+    position: absolute;
+    left: 325px;
+    display: none;
+}
+#wrong{
+    background-color: red;
+    color: white;
+    padding: 9px;
+    position: absolute;
+    left: 325px;
+    display: none;
+}
+#basket{
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    margin: 75px 100px 0px 100px;
+    box-shadow: 0px 5px #535aa8;
+    -moz-box-shadow: 0px 5px #535aa8;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+#question2{
+    height: 50px;
+    width: 600px;
+    background-color: #B481D9;
+    margin: 10px 100px 0px 100px;
+    box-shadow: 0px 5px #8153a8;
+    -moz-box-shadow: 0px 5px #8153a8;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+#start{
+    margin: 10px 350px 10px 350px;
+    height: 30px;
+    width: 100px;
+    background-color:rgba(6, 73, 144, 0.845) ;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    box-shadow:0 5px #252743;
+
+
+}
+#start:hover{
+    background-color: #9c89F6;
+    color: white;
+    box-shadow:0 5px #6b54d3;
+    -moz-box-shadow: #6b54d3;
+    -webkit-box-shadow: #6b54d3;
+}
+#start:active{
+    background-color: #9c89F6;
+    color: white;
+    box-shadow:0 0  #6b54d3;
+    -moz-box-shadow:0 0  #6b54d3;
+    -webkit-box-shadow:0 0  #6b54d3;
+    bottom: 6px;
+    position: absolute;
+}
+#trials{
+    background-color:#F1ff92 ;
+    box-shadow: 0px 5px #9da853;
+    -moz-box-shadow: 0px 5px #9da853;
+    padding: 10px;
+    width: 90px;
+    color: #888E5F;
+    position: absolute;
+    top: 10px;
+    display: none;
+}
+#gameover{
+    position: absolute;
+    left: 210px;
+    top: 150px;
+    height: 250px;
+    border-radius: 8px;
+    width: 400px;
+    background-color: rgb(107, 44, 201);
+    text-align: center;
+    line-height: 50px;
+    font-size: 2.5rem;
+    color: rgb(248, 243, 243);
+    z-index: 2;
+    display: none;
+    text-transform: uppercase;
+    
+}
+.lives{
+    height: 30px;
+    width: 30px;
+}
+.fruit{
+    display: none;
+    position: absolute;
+    
+}
